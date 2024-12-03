@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using FluentValidation.WebApi;
 using System.Web.Http;
 
 namespace SyncpWallet
@@ -8,11 +6,11 @@ namespace SyncpWallet
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
-        {
-            // Web API configuration and services
-
+        {        
             // Web API routes
             config.MapHttpAttributeRoutes();
+
+            FluentValidationModelValidatorProvider.Configure(config);
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
@@ -20,5 +18,5 @@ namespace SyncpWallet
                 defaults: new { id = RouteParameter.Optional }
             );
         }
-    }
+    }   
 }

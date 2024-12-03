@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncpWallet", "SyncpWallet\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncpWallet.Tests", "SyncpWallet.Tests\SyncpWallet.Tests.csproj", "{B7B02C51-A199-4C89-A523-C2E48D777047}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncpWallet.Services", "SyncpWallet.Services\SyncpWallet.Services.csproj", "{FEBAD096-DF8D-417C-9D08-028DA8883E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncpWallet.Repositories", "SyncpWallet.Repositories\SyncpWallet.Repositories.csproj", "{C26642F3-FF73-4C74-89D8-6D1F99E98D98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B7B02C51-A199-4C89-A523-C2E48D777047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B02C51-A199-4C89-A523-C2E48D777047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B02C51-A199-4C89-A523-C2E48D777047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBAD096-DF8D-417C-9D08-028DA8883E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBAD096-DF8D-417C-9D08-028DA8883E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBAD096-DF8D-417C-9D08-028DA8883E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBAD096-DF8D-417C-9D08-028DA8883E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26642F3-FF73-4C74-89D8-6D1F99E98D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26642F3-FF73-4C74-89D8-6D1F99E98D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26642F3-FF73-4C74-89D8-6D1F99E98D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26642F3-FF73-4C74-89D8-6D1F99E98D98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
